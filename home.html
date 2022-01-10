@@ -1,0 +1,119 @@
+<html>
+    <head><title>HexaDecimal Calcultor</title>
+    <link rel="stylesheet" type="text/css" href="Resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="Vendor/css/Grid.css">
+    <link rel="stylesheet" type="text/css" href="Vendor/css/normalize.css">
+    <script type="text/javascript" src="Resources/javascript/calc.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Calculator</h1>
+        </header>
+        <section class="features">
+            <div class="row">
+                <h2>Hexadecimal Calculator</h2>
+            </div>
+            <div class="row">
+                <form name="calc">
+                <div class=" box">
+                    <input type="text" name="display" readonly placeholder="0" disabled>
+                    <div class="row">
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="7" onclick="pval(this.value)"/>
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="8" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="9" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="/" onClick="pval(this.value)">
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="4" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="5" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="6" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="*" onClick="pval(this.value)">
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="1" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="2" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="3" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="-" onClick="pval(this.value)">
+                        </div> 
+                    </div>
+                    <div class="row">
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="0" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="CLR" onClick="CLR();">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="=" onClick="ev()" >
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="+" onClick="pval(this.value)">
+                        </div> 
+                    </div> 
+                    <div class="row">
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="A" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="B" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="C" onClick="pval(this.value);">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="D" onClick="pval(this.value)">
+                        </div> 
+                    </div> 
+                    <div class="row">
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="E" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="F" onClick="pval(this.value)">
+                        </div>
+                           <div class="btn-box">
+                            <input type="button" name="entry" value="&" onClick="pval(this.value)">
+                        </div>
+                        <div class="btn-box">
+                            <input type="button" name="entry" value="|" onClick="pval(this.value)">
+                        </div>
+                         
+                    </div>
+                    <input type="text" name="result" readonly value="Result : " disabled >
+                </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+           <div class="row">
+                <h3>Made By Ritwick Verma</h3>
+            </div> 
+        
+        </footer>
+        
+    </body>
+</html>
